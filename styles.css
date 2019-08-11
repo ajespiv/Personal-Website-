@@ -20,6 +20,11 @@ body {
     display: flex;
 }
 
+.right-side > div > a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+
 .nav-wrapper > .left-side > div {
     margin-right: 28px; 
     font-size: 0.9em;
@@ -44,6 +49,11 @@ body {
 
 .nav-link-wrapper a:hover {
     color: black;
+}
+
+.nav-wrapper a:hover {
+    color: black;
+    transition: color 05s;
 }
 
 /* Portfolio Styles */
